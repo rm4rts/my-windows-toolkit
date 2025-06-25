@@ -1,0 +1,36 @@
+sudo apt update
+sudo apt install android-sdk-platform-tools
+
+# PARA INSTALAR SOLO ADB
+sudo apt install adb     
+
+# ACTIVAR DEPURACIÓN USB EN EL MÓVIL Y ACEPTAR LA CONEXIÓN
+adb devices
+
+# LISTAR APPS INSTALADAS
+adb shell pm list packages
+
+# LISTAR APPS DEL SISTEMA INSTALADAS
+adb shell pm list packages -s
+
+# LISTAR APPS DEL USUARIO 
+adb shell pm list packages -3
+
+# LISTAR UNA APP
+adb shell pm list packages | grep nombre.app
+
+# DESINSTALAR APP
+adb shell pm uninstall -k --user 0 nombre.paquete
+
+# REINSTALAR O HABILITAR APP DESHABILITADA
+adb shell cmd package install-existing nombre.paqueteS
+
+# HABILITAR APP DESHABILITADA
+adb shell pm enable nombre.paquete
+
+# DESHABILITAR APP
+adb shell pm disable-user --user 0 nombre.paquete
+
+
+
+
