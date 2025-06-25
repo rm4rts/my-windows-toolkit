@@ -1,2 +1,20 @@
 # my-windows-toolkit
-Personal collection of scripts, configurations and writeups for Windows system administration.
+
+This repository contains scripts, configurations and writeups that I collect while learning about Windows system administration and cybersecurity. It's a personal collection, useful both for me and for anyone interested in automating tasks or improving their workflow on Windows systems.
+
+
+## 📁 Structure
+
+- `scripts/` - Useful scripts
+- `dotfiles/` - Configuration files
+- `writeups/` - Notes with commands, tricks, guides or technical summaries.
+
+
+## ❗ Warning
+
+These scripts are personal, they may not be 100% safe for production. Use them at your own risk.
+
+
+## 📜 License
+
+This project is licensed under the MIT license. See the LICENSE file for more details.
