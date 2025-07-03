@@ -1,12 +1,11 @@
 # my-windows-toolkit
 
-This repository contains scripts, configurations and writeups that I collect while learning about Windows system administration and cybersecurity. It's a personal collection, useful both for me and for anyone interested in automating tasks or improving their workflow on Windows systems.
+This repository contains scripts, configurations and writeups that I collect while learning about Windows system administration. I'm always trying to learn new things. It's a personal collection, useful both for me and for anyone interested in automating tasks or improving their workflow on Windows systems.
 
 
 ## 📁 Structure
 
 - `scripts/` - Useful scripts
-- `dotfiles/` - Configuration files
 - `writeups/` - Notes with commands, tricks, guides or technical summaries.
 
 
